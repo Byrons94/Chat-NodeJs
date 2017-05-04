@@ -1,0 +1,19 @@
+{
+  "name": "chat-socketio",
+  "version": "1.0.0",
+  "description": "chat project with socket IO",
+  "main": "index.js",
+  "scripts": {
+  	"start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Byron Serrano",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
